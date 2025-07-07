@@ -1,3 +1,3 @@
-## Week 01 - Foundation Fire
+## Week 01 - Foundation Fire 
 
-- created Week01 folder for every day progress.
+- 7/7/2025 created Week01 folder for every day progress.
