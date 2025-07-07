@@ -1,64 +1,86 @@
-# AWS 120-Day Warrior Plan 🚀
+# 🚀 AWS 120-Day Warrior Journey
 
-**Start Date:** July 6, 2025  
-**Goal:** Skill-based ₹18 LPA AWS/Cloud/DevOps Job by November 3, 2025
+**📅 Start Date:** July 6, 2025  
+**🎯 End Date:** November 3, 2025  
+**🏆 Goal:** Skill-based ₹18 LPA AWS/Cloud/DevOps job — no shortcuts, only truth and skill.
 
-This repository is a 120-day public log of my AWS journey — from zero to real-world cloud skills. I'm building 5–8 authentic projects, preparing for the SAA-C03 certification, and applying for real jobs — without fake title mapping or shortcuts.
+This is my **120-day public transformation challenge** — from foundational AWS learning to real-world DevOps project deployment. Every day, I document what I learn, build, and understand — with the goal of earning an 18 LPA job **based on real skill and effort**, not fake title mapping.
 
 ---
 
 ## 🔥 Day 1: Sankalpa + Setup
 
-- Created this GitHub repo to track my AWS learning publicly.
-- Set clear 120-day goals with a strict, skill-first agenda.
-- Removed old mapped content and committed to honesty in resume and projects.
-- Designed the entire roadmap with weekly milestones, projects, and checkpoints.
+- ✅ Created this GitHub repo to track AWS progress publicly
+- ✅ Reset roadmap, wiped all past content, and started fresh
+- ✅ Designed full 120-day plan: themes, weeks, projects, checkpoints
+- ✅ Took Sankalpa (spiritual vow) for truth, effort, and transformation
 
-> **My Sankalpa (Vow):**  
+> ### 🧘‍♂️ My Sankalpa:
 > *"I will earn an 18 LPA job within 120 days through skills, sincerity, and effort. No shortcuts. No title mapping. Only truth and growth."*
 
 ---
 
-## 📁 Structure
+## 🗂 Folder Structure
 
-Each week has folders like this:
+aws-120days-journey/
+├── week01-foundation/
+│ ├── day01-sankalpa-setup/
+│ └── day02-iam-ec2-basics/
+├── week02-cli-devboost/
+│ └── ...
+├── resume-profile/
+└── resources/
 
-week01-foundation/
-├── day01-sankalpa-setup/
-├── day02-iam-ec2-basics/
-└── ...
 
-Each day folder includes:
-- Tasks performed
-- Commands/scripts (if any)
-- Reflections
-- Screenshots
+Each **day folder** includes:
+- ✅ Tasks performed
+- ✅ Terminal commands
+- ✅ Scripts or config
+- ✅ Screenshots & notes
+- ✅ Reflections (mental clarity, growth)
 
 ---
 
-## 📅 Weekly Themes (Examples)
-- **Week 1** – IAM, EC2, S3, CLI
-- **Week 2** – Bash, Roles, Hosting
-- **Week 3** – Serverless, Lambda, DDB
-- **Week 4** – CI/CD, Automation
-- **Week 5+** – Real Projects, Certification, Mock Interviews
+## 🔱 Weekly Themes
+
+| Week | Theme                        | Core Focus                           |
+|------|------------------------------|--------------------------------------|
+| 1    | Foundation Fire              | IAM, EC2, S3, CLI basics              |
+| 2    | CLI + Dev Skill Boost        | Bash scripting, EC2 deep dive        |
+| 3    | Serverless Foundations       | Lambda, API Gateway, DynamoDB        |
+| 4    | Infra as Code & Automation   | CI/CD, GitHub Actions, Linux Admin   |
+| 5    | DataOps & Visualization      | Glue, Athena, QuickSight             |
+| 6–10 | Real Projects + SAA-C03 Prep | Certification + 5+ Real-world builds |
+| 11–14| Interviews + Applications    | Mock rounds, resume, job push        |
+| 15–17| Offers, Closure, Gratitude   | Final push, reviews, job acceptance  |
 
 ---
 
 ## 🎯 Final Outcomes
-- ✅ 5 Major + 3 Bonus AWS Projects (GitHub + Resume)
-- ✅ SAA-C03 Certification by Day 90
-- ✅ Honest Resume + GitHub + LinkedIn = Job Ready
-- ✅ ₹18 LPA+ Cloud/DevOps Job Offer
+
+- ✅ **SAA-C03 AWS Certification** (before Day 90)
+- ✅ **5+ Real Projects** with GitHub, video demos, and use-cases
+- ✅ **Resume + LinkedIn + GitHub = Honest & Sharp**
+- ✅ **₹18 LPA Cloud Role** — by skill alone, not title mapping
 
 ---
 
 ## 📸 Day 1 Artifacts
-- [x] Plan Tracker
-- [x] Daily structure & goals
-- [x] This repo creation ✅
+- 📍 120-Day Plan Finalized
+- 📍 GitHub Repo Created
+- 📍 Daily Tracker in place
+- 📍 Week-wise structure built
 
 ---
 
-Stay tuned — this is a fully transparent, day-by-day journey to break into cloud roles authentically. 🌥️
+## 🌱 My Philosophy
 
+> This is a journey of **transformation through discipline and sincerity.**  
+> No shortcuts. No past mapping. Only the truth of what I’ve learned and built.
+
+---
+
+Stay tuned as I move from zero to job-ready cloud skills — day by day, repo by repo. 🌩️
+
+📬 Contact: devendar.nandaiahgari@gmail.com  
+📌 [LinkedIn](#) (Coming Soon)
