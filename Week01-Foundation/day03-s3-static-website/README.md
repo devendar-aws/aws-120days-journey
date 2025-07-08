@@ -25,10 +25,10 @@
 
 ## 🔐 Bucket Policy Used
 
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
+
+    {
+      "Version": "2012-10-17",
+    "Statement": [
     {
       "Sid": "PublicReadGetObject",
       "Effect": "Allow",
@@ -36,8 +36,8 @@
       "Action": "s3:GetObject",
       "Resource": "arn:aws:s3:::dev-s3-day3/*"
     }
-  ]
-}
+    ]
+    }
 
 💡 Reflections
 
@@ -58,3 +58,5 @@
 ### 🖼️ Screenshot
 
 ![Live Website](./Screenshots/site-live.png)
+
+
