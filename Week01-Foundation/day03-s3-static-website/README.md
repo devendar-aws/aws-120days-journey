@@ -54,3 +54,7 @@
     bucket-policy.json — For public read access
 
     README.md — This file documenting the process
+
+### 🖼️ Screenshot
+
+![Live Website](./Screenshots/site-live.png)
