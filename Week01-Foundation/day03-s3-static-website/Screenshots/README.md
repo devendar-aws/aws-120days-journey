@@ -1,3 +1,3 @@
 ### 🖼️ Screenshot
 
-![Live Website](./screenshots/site-live.png)
+![Live Website](./Screenshots/site-live.png)
