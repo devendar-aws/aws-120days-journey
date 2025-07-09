@@ -40,3 +40,20 @@
 | 🖼️ Added screenshot of live website | ✅ |
 | 📝 Wrote Day 3 `README.md` documenting setup | ✅ |
 | ✅ Marked Day 3 complete in tracker/log | ✅ |
+
+### ✅ Day 4 Checklist – Apache Static Website on EC2
+
+| Task                                                                 | Status |
+|----------------------------------------------------------------------|--------|
+| 📦 Launch new EC2 (Ubuntu) in `ap-south-1` region                    | ✅     |
+| 🔐 Create + attach security group with port 22 + 80 open             | ✅     |
+| 📁 SSH into instance using your `.pem` key (CLI)                     | ✅     |
+| 🔧 Install Apache (`sudo apt install apache2`)                       | ✅     |
+| ▶️ Start + enable Apache (`systemctl start apache2`, `enable`)       | ✅     |
+| 📄 Replace default `index.html` with your custom HTML                | ✅     |
+| 🌐 Open `http://<EC2 Public IP>` in browser and verify the webpage   | ✅     |
+| 📸 Take screenshot of live Apache-hosted site                        | ✅     |
+| 📁 Create `week01-foundation/day04-apache-ec2/` folder in GitHub     | ✅     |
+| 📝 Add detailed `README.md` for Day 4 (commands, reflections, etc.)  | ✅     |
+| ☁️ Upload screenshot to GitHub folder                                | ✅     |
+| ✅ Mark Day 4 complete in tracker + master checklist                 | ✅     |
