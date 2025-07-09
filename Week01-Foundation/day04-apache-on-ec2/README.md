@@ -55,4 +55,6 @@
 📸 Screenshot
 
 ✅ Added browser screenshot of Apache default page
+![Apache Default Page](./screenshots/apache-default-page.png)
 ✅ Added browser screenshot of public IP showing my hosted custom HTML pag
+![Apache Static Site](./screenshots/apache-static-site.png)
