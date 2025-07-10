@@ -86,4 +86,6 @@ See full details in debug_notes.md.
 📸 Screenshots
 
 - SSH key added to GitHub ✅
+![SSH Key](./screenshots/ssh-key-verification.png)
 - Terminal screenshot of successful git push from EC2 ✅
+![Git push](./screenshots/git-push-from-ec2.png)
