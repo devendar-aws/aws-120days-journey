@@ -57,3 +57,20 @@
 | 📝 Add detailed `README.md` for Day 4 (commands, reflections, etc.)  | ✅     |
 | ☁️ Upload screenshot to GitHub folder                                | ✅     |
 | ✅ Mark Day 4 complete in tracker + master checklist                 | ✅     |
+
+
+### ✅ Day 5 Checklist (Linux + Git + GitHub via CLI)
+
+| Task                                                                                   | Status |
+|----------------------------------------------------------------------------------------|--------|
+| 🔐 Created a new Linux user (`devopsuser`) on EC2 and switched into it                 | ✅     |
+| 🔑 Generated new SSH key using `ssh-keygen -t ed25519`                                 | ✅     |
+| 🗝️ Added SSH public key to GitHub > Settings > SSH Keys                                | ✅     |
+| 🔗 Verified GitHub SSH connection using `ssh -T git@github.com`                        | ✅     |
+| 📂 Initialized local repo folder `aws-cli-test/`, ran `git init`                       | ✅     |
+| 🔄 Set remote origin and resolved branch mismatch using `git branch -M main`           | ✅     |
+| 🔄 Resolved "unrelated histories" by merge method or manual fix                        | ✅     |
+| 🐛 Performed first real GitHub debugging: SSH mismatch, wrong key, branch issues       | ✅     |
+| 📝 Created and pushed `learning_notes.md` and `debug_notes.md`                         | ✅     |
+| 📁 Updated GitHub `week01-foundation/day05-linux-git-cli/README.md` with learnings     | ✅     |
+| 🧭 Marked Day 5 complete in master tracker and repo                                    | ✅     |
