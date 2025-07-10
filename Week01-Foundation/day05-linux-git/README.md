@@ -58,6 +58,10 @@ Faced a Git push error due to unrelated histories and fixed it by:
 
     ssh-keygen -t ed25519 -C "devendar.aws@gmail.com"
     cat ~/.ssh/id_ed25519.pub
+    
+    To check if your SSH key is added to the SSH agent (i.e. loaded and ready to use), run this:
+
+    ssh-add -l
 
     git init
     git remote add origin git@github.com:devendar-aws/aws-120days-journey.git
