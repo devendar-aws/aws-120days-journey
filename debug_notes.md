@@ -35,10 +35,10 @@ instead of:
 - Local repo was initialized via `git init` — they had different histories.
 
 **Fix:**
-```bash
-git pull origin main --allow-unrelated-histories
+
+    git pull origin main --allow-unrelated-histories
 # Then resolved the merge message (left as default)
-git push origin main
+    git push origin main
 
 
 
@@ -48,7 +48,7 @@ git push origin main
 Push failed due to branch name mismatch.
 
 **Fix:**
-    ```bash
-       git branch -M main
+
+    git branch -M main
 
 This renamed local branch to main to match remote.
