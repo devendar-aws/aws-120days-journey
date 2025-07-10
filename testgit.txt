@@ -1,1 +1,0 @@
-Testing it to understand how git commands like git status, git add ., git commit -m my msg and gti pushorigin main
