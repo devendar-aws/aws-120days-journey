@@ -74,3 +74,19 @@
 | 📝 Created and pushed `learning_notes.md` and `debug_notes.md`                         | ✅     |
 | 📁 Updated GitHub `week01-foundation/day05-linux-git-cli/README.md` with learnings     | ✅     |
 | 🧭 Marked Day 5 complete in master tracker and repo                                    | ✅     |
+
+### ✅ Day 6 Checklist (Revision + Assessment + SSH/Git Integration)
+
+| Task                                                                                  | Status |
+|---------------------------------------------------------------------------------------|--------|
+| 🔁 Revised IAM, EC2, and S3 core concepts from Days 2–4                                | ✅     |
+| 🧠 Attempted 5 real-world scenario-based assessment questions                          | ✅     |
+| 📝 Wrote answers for all 5 questions (self-evaluation)                                | ✅     |
+| 📊 Evaluated score based on completeness and accuracy                                 | ✅     |
+| 🧾 Created `assessment-01.md` file with all Q/A, improved answers, notes              | ✅     |
+| 💻 Connected to EC2 via CLI                                                           | ✅     |
+| 🔐 SSH GitHub setup: validated `.ed25519` key connection from EC2                     | ✅     |
+| ⚙️ Resolved PTY allocation warning (understood it's harmless for Git use)             | ✅     |
+| 🔁 Practiced Git pull/push from EC2 CLI                                               | ✅     |
+| 📁 Updated GitHub Day 6 folder: `README.md`, screenshots, checklist, assessment file  | ✅     |
+| ✅ Marked Day 6 complete in tracker and master checklist                              | ✅     |
