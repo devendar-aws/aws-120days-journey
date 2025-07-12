@@ -90,3 +90,18 @@
 | 🔁 Practiced Git pull/push from EC2 CLI                                               | ✅     |
 | 📁 Updated GitHub Day 6 folder: `README.md`, screenshots, checklist, assessment file  | ✅     |
 | ✅ Marked Day 6 complete in tracker and master checklist                              | ✅     |
+
+## ✅ Checklist for Day 07
+
+| Task                                                                 | Status |
+|----------------------------------------------------------------------|--------|
+| Completed S3 Static Website Hosting Project                         | ✅     |
+| Wrote Project README and added screenshot                           | ✅     |
+| Uploaded to GitHub under `projects/project01-s3-static-website/`             | ✅     |
+| Created honest Resume/Profile V1                                    | ✅     |
+| Mapped Amazon past roles into relevant cloud experience              | ✅     |
+| Avoided CTC, fake titles, and salary discussions in resume          | ✅     |
+| Added summary: "Actively targeting ₹18 LPA+ AWS Cloud roles..."     | ✅     |
+| Exported resume as PDF and added to GitHub                          | ✅     |
+| Finalized Week 01 README, Learning Notes, Debug Notes               | ✅     |
+| Prepared for Week 02: Project Push + CLI Proficiency                | ✅     |
