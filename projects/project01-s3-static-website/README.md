@@ -36,11 +36,11 @@ Build and deploy a static HTML website on S3 using IAM permissions and AWS CLI, 
 ## 🚀 Steps Performed
 
 ### 1️⃣ Create S3 Bucket
-```bash
-aws s3api create-bucket \
-  --bucket devendar-static-site \
-  --region ap-south-1 \
-  --create-bucket-configuration LocationConstraint=ap-south-1
+
+    aws s3api create-bucket \
+      --bucket devendar-static-site \
+      --region ap-south-1 \
+      --create-bucket-configuration LocationConstraint=ap-south-1
 
 ### 2️⃣ Enable Static Website Hosting (CLI or Console)
 
