@@ -103,10 +103,13 @@ Clean documentation and screenshots
 ### 📸 Screenshots
 
 ✅ S3 bucket settings
+![Bucket Settings](./screenshots/bucket-settings.png)
 
 ✅ Bucket policy
+![Bucket Policy](./screenshots/bucket-policy.png)
 
 ✅ Static website live URL
+![Static Website](./screenshots/aws-s3-static-website.png)
 
 ### 🧘 Reflections
 
