@@ -1,86 +1,65 @@
-# 🚀 AWS 120-Day Warrior Journey
+# 🚀 Devendar's 120-Day AWS Cloud Engineer Journey to ₹18 LPA (Day 01–Day 07)
 
-**📅 Start Date:** July 6, 2025  
-**🎯 End Date:** November 3, 2025  
-**🏆 Goal:** Skill-based ₹18 LPA AWS/Cloud/DevOps job — no shortcuts, only truth and skill.
-
-This is my **120-day public transformation challenge** — from foundational AWS learning to real-world DevOps project deployment. Every day, I document what I learn, build, and understand — with the goal of earning an 18 LPA job **based on real skill and effort**, not fake title mapping.
+Welcome to my open learning journey from ₹4.2 LPA to ₹18 LPA — powered by honesty, hands-on AWS projects, CLI mastery, and deep certification prep.
 
 ---
 
-## 🔥 Day 1: Sankalpa + Setup
+## 🧭 Goal: ₹18 LPA AWS Cloud Engineer Job by November 3, 2025
 
-- ✅ Created this GitHub repo to track AWS progress publicly
-- ✅ Reset roadmap, wiped all past content, and started fresh
-- ✅ Designed full 120-day plan: themes, weeks, projects, checkpoints
-- ✅ Took Sankalpa (spiritual vow) for truth, effort, and transformation
-
-> ### 🧘‍♂️ My Sankalpa:
-> *"I will earn an 18 LPA job within 120 days through skills, sincerity, and effort. No shortcuts. No title mapping. Only truth and growth."*
+- 📅 **Sankalpa Duration**: July 6, 2025 – November 3, 2025
+- 🧘‍♂️ **Approach**: No fake experience, only truth + skill + projects
+- 🎯 **Path**: Projects + Certification + Resume + Profile + Interview Prep
 
 ---
 
-## 🗂 Folder Structure
+## ✅ Week 01 Summary (July 6–12, 2025)
 
-aws-120days-journey/
-├── week01-foundation/
-│ ├── day01-sankalpa-setup/
-│ └── day02-iam-ec2-basics/
-├── week02-cli-devboost/
-│ └── ...
-├── resume-profile/
-└── resources/
-
-
-Each **day folder** includes:
-- ✅ Tasks performed
-- ✅ Terminal commands
-- ✅ Scripts or config
-- ✅ Screenshots & notes
-- ✅ Reflections (mental clarity, growth)
+| Day | Theme                         | Key Focus Areas |
+|-----|-------------------------------|------------------|
+| 01  | Sankalpa + Setup              | GitHub repo, planning, goals |
+| 02  | IAM + EC2 via CLI             | IAM user creation, `aws configure`, EC2 CLI |
+| 03  | S3 Static Website (Manual)    | S3 + Bucket Policy + Public Hosting |
+| 04  | EC2 Apache Static Website     | Linux server setup + Apache install |
+| 05  | Linux + GitHub via CLI        | `.pem`, `.pub`, SSH, Git init/push |
+| 06  | Assessment + EIP + Revision   | EIP lifecycle, IAM/EC2/S3 review |
+| 07  | Project 1 + Resume V1         | S3 Website Project + Honest Resume |
 
 ---
 
-## 🔱 Weekly Themes
+## 🔨 Projects Completed
 
-| Week | Theme                        | Core Focus                           |
-|------|------------------------------|--------------------------------------|
-| 1    | Foundation Fire              | IAM, EC2, S3, CLI basics              |
-| 2    | CLI + Dev Skill Boost        | Bash scripting, EC2 deep dive        |
-| 3    | Serverless Foundations       | Lambda, API Gateway, DynamoDB        |
-| 4    | Infra as Code & Automation   | CI/CD, GitHub Actions, Linux Admin   |
-| 5    | DataOps & Visualization      | Glue, Athena, QuickSight             |
-| 6–10 | Real Projects + SAA-C03 Prep | Certification + 5+ Real-world builds |
-| 11–14| Interviews + Applications    | Mock rounds, resume, job push        |
-| 15–17| Offers, Closure, Gratitude   | Final push, reviews, job acceptance  |
+### ✅ [Project 1: Static Website Hosting on S3](projects/project01-s3-static-website/)
+
+- Hosted a live HTML site on S3
+- Configured Bucket Policy + BPA + Website Config
+- Deployed using CLI
+- 📸 Screenshot, README, JSONs included
 
 ---
 
-## 🎯 Final Outcomes
+## 🧠 Learning Resources
 
-- ✅ **SAA-C03 AWS Certification** (before Day 90)
-- ✅ **5+ Real Projects** with GitHub, video demos, and use-cases
-- ✅ **Resume + LinkedIn + GitHub = Honest & Sharp**
-- ✅ **₹18 LPA Cloud Role** — by skill alone, not title mapping
+- 📘 [`learning_notes.md`](./learning_notes.md): Key concepts, commands, and reflections
+- 🛠 [`debug_notes.md`](./debug_notes.md): Issues I fixed with reasoning
 
 ---
 
-## 📸 Day 1 Artifacts
-- 📍 120-Day Plan Finalized
-- 📍 GitHub Repo Created
-- 📍 Daily Tracker in place
-- 📍 Week-wise structure built
+## 📄 Resume / Profile
+
+- 📌 Honest Resume (V1) created on Day 07
+- 👨‍💻 GitHub projects, real experience from Amazon highlighted
+- 🎯 Targeting ₹18 LPA Cloud roles
+- [View Resume PDF](link-if-you-want-to-add-later)
 
 ---
 
-## 🌱 My Philosophy
+## 🔭 What's Next (Week 02 Preview)
 
-> This is a journey of **transformation through discipline and sincerity.**  
-> No shortcuts. No past mapping. Only the truth of what I’ve learned and built.
+- Start **Project 2: Serverless TODO App (Lambda + DynamoDB)**
+- Deeper dive into AWS CLI and Serverless
+- Prepare for AWS SAA-C03 certification
 
 ---
 
-Stay tuned as I move from zero to job-ready cloud skills — day by day, repo by repo. 🌩️
+### 🙏 Thanks for visiting. I’m building this in public. Feel free to connect.
 
-📬 Contact: devendar.nandaiahgari@gmail.com  
-📌 [LinkedIn](#) (Coming Soon)

@@ -70,6 +70,31 @@ This document captures key learnings, insights, and memorable technical concepts
 
 ---
 
+## 📅 [Day 6] Assessment + EIP + Review + Practice
+
+- Revised all key concepts from IAM, EC2, S3, Git.
+- Understood Elastic IP:
+  - Public IP changes every restart.
+  - EIP provides static IP.
+  - Charges apply only if EIP is unassociated while allocated.
+  - Can allocate, associate, disassociate, release via CLI or Console.
+- Scored ~4/5 in assessment with partial answers.
+- Realized GitHub, CLI, S3 concepts are getting stronger.
+
+## 📅 [Day 7] Project 1 Completion + Resume/Profile V1
+
+- Completed Project 1: Static Website Hosting with S3
+- Created project folder under projects/project1-static-s3
+- Added README, screenshot, bucket policy, website config.
+- Created Resume V1:
+  - Honest + strategic
+  - No fake experience
+  - 18 LPA goal highlighted
+  - Amazon roles mapped to data/cloud context
+- Added week01 summary, debug_notes.md, learning_notes.md, and README.md files.
+
 ## ✨ More learnings will be added as I go deeper into AWS, DevOps, and cloud project building.
 
 Stay tuned. This file will help me quickly revise and reinforce everything when needed.
+
+
