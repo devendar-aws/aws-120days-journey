@@ -36,11 +36,11 @@ Build and deploy a static HTML website on S3 using IAM permissions and AWS CLI, 
 ## 🚀 Steps Performed
 
 ### 1️⃣ Create S3 Bucket
-```bash
-aws s3api create-bucket \
-  --bucket devendar-static-site \
-  --region ap-south-1 \
-  --create-bucket-configuration LocationConstraint=ap-south-1
+
+    aws s3api create-bucket \
+      --bucket devendar-static-site \
+      --region ap-south-1 \
+      --create-bucket-configuration LocationConstraint=ap-south-1
 
 ### 2️⃣ Enable Static Website Hosting (CLI or Console)
 
@@ -72,6 +72,18 @@ aws s3api create-bucket \
 
     aws s3 cp index.html s3://devendar-static-site/
 
+    Index.html
+
+    <html>
+      <head>
+        <title>Dev's S3 Static Site</title>
+      </head>
+      <body style="text-align:center; padding-top:50px;">
+        <h1>Welcome to AWS 120days Journey _/\_</h1>
+        <p>This website is hosted on AWS S3 via CLI as part of my 120-Day Journey</p>
+      </body>
+    </html>
+
 ### 5️⃣ Access Website
 
 - [AWS S3Static Website](http://devendar-static-site.s3-website.ap-south-1.amazonaws.com)
@@ -91,10 +103,13 @@ Clean documentation and screenshots
 ### 📸 Screenshots
 
 ✅ S3 bucket settings
+![Bucket Settings](./screenshots/bucket-settings.png)
 
 ✅ Bucket policy
+![Bucket Policy](./screenshots/bucket-policy.png)
 
 ✅ Static website live URL
+![Static Website](./screenshots/aws-s3-static-website.png)
 
 ### 🧘 Reflections
 
