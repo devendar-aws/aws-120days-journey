@@ -72,6 +72,18 @@ Build and deploy a static HTML website on S3 using IAM permissions and AWS CLI, 
 
     aws s3 cp index.html s3://devendar-static-site/
 
+    Index.html
+
+    <html>
+      <head>
+        <title>Dev's S3 Static Site</title>
+      </head>
+      <body style="text-align:center; padding-top:50px;">
+        <h1>Welcome to AWS 120days Journey _/\_</h1>
+        <p>This website is hosted on AWS S3 via CLI as part of my 120-Day Journey</p>
+      </body>
+    </html>
+
 ### 5️⃣ Access Website
 
 - [AWS S3Static Website](http://devendar-static-site.s3-website.ap-south-1.amazonaws.com)
