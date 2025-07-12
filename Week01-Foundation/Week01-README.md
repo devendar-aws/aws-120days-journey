@@ -87,7 +87,7 @@ logs/
 - ✅ [`learning_notes.md`](./../learning_notes.md): All learnings from Day 1 to Day 7
 - 🪛 [`debug_notes.md`](./../debug_notes.md): Fixes like GitHub SSH, unrelated histories
 - 📄 [`assessment-01.md`](./../assessments/assessment-01.md): 5 AWS scenario questions, answers, score
-- 📄 [`assessment-01.md`](./../review-quizzes/review-quiz-week01.md): 15 MCQs, 5 Fill in the blanks/one word
+- 📄 [`review-quiz-week01.md`](./../review-quizzes/review-quiz-week01.md): 15 MCQs, 5 Fill in the blanks/one word
 - ⚙️ [`commands-week01.md`](./../commands/commands-week01.md): All CLI commands with descriptions
 
 ---
