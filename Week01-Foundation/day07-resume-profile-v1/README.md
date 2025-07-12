@@ -59,7 +59,7 @@ Resume V1 + Project 1 Completion
 - ✅ Clarified how **security groups** and **ports** work
 - ✅ Mastered using CLI for EC2 + S3
 
-See [`debug_notes.md`](../debug_notes.md) and [`learning_notes.md`](../learning_notes.md) for details.
+See [`debug_notes.md`](./../../debug_notes.md) and [`learning_notes.md`](./../../learning_notes.md) for details.
 
 ---
 
@@ -72,7 +72,7 @@ See [`debug_notes.md`](../debug_notes.md) and [`learning_notes.md`](../learning_
 - `git push`, `git commit`, `git merge`, `git branch -M main`
 - `scp`, `ls`, `mv`, `cd`, `rm`, etc.
 
-Full Week 01 Commands List available in [`week01-commands.md`](../week01-commands.md)
+Full Week 01 Commands List available in [`week01-commands.md`](./../../commands/commands-week01.md)
 
 ---
 
