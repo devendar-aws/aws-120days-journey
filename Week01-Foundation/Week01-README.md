@@ -84,10 +84,10 @@ logs/
 
 ## 📘 Logs and Notes
 
-- ✅ [`learning_notes.md`](./../../learning_notes.md): All learnings from Day 1 to Day 7
-- 🪛 [`debug_notes.md`](./../../debug_notes.md): Fixes like GitHub SSH, unrelated histories
-- 📄 [`assessment-01.md`](./../../assessments/assessment-01.md): 5 AWS scenario questions, answers, score
-- ⚙️ [`commands-week01.md`](./../../commands/commands-week01.md): All CLI commands with descriptions
+- ✅ [`learning_notes.md`](./../learning_notes.md): All learnings from Day 1 to Day 7
+- 🪛 [`debug_notes.md`](./../debug_notes.md): Fixes like GitHub SSH, unrelated histories
+- 📄 [`assessment-01.md`](./../assessments/assessment-01.md): 5 AWS scenario questions, answers, score
+- ⚙️ [`commands-week01.md`](./../commands/commands-week01.md): All CLI commands with descriptions
 
 ---
 
