@@ -1,4 +1,4 @@
-# 🗓️ Day 08: AWS CLI + S3 Mastery
+# 🗓️ Day 08: AWS CLI + S3 Mastery (July 13, 2025)
 
 ## ✅ What I Did Today
 
