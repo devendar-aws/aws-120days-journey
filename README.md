@@ -60,6 +60,13 @@ Welcome to my open learning journey from ₹4.2 LPA to ₹18 LPA — powered by 
 - Prepare for AWS SAA-C03 certification
 
 ---
+## 🛠️ Tools & Technologies Used
+
+- AWS (S3, EC2, IAM, CLI)
+- Git & GitHub (via Git Bash)
+- GitHub CLI (`gh`)
+- Linux Shell (Bash)
+- JSON (for S3 policies)
 
 ### 🙏 Thanks for visiting. I’m building this in public. Feel free to connect.
 
