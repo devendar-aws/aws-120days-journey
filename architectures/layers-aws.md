@@ -111,15 +111,4 @@
 
 
 
-## ✅ Devendar’s Mental Stack (Suggested Layers)
 
-|----------------------------------------------------------------------|
-| Level 0 | AWS Global Infra (Region, AZ, Edge)                        |
-| Level 1 | Networking (VPC, Subnets, NAT, IGW)                        |
-| Level 2 | IAM & Security (Users, Roles, SGs, KMS)                    |
-| Level 3 | Compute & Storage (EC2, S3, EBS, EFS)                      |
-| Level 4 | Automation & DevOps (Lambda, CodePipeline, GitHub Actions) |
-| Level 5 | Observability & Cost (CloudWatch, Trail, Budgets)          |
-| Level 6 | Real-World Project Services (Athena, Glue, RDS, Route 53)  |
-| Level 7 | Data & AI (Bonus: SageMaker, Redshift, etc.)               |
-|----------------------------------------------------------------------|
