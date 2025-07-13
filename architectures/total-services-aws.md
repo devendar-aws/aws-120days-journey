@@ -1,4 +1,19 @@
-## 🧱 Level 1: Core Services You’re Already Touching
+## 🧱 Visual Snapshot of Skill Pyramid
+
+            🏔️ High-Level Projects + Design
+               ───────────────────────────
+          ☁️ Lambda | CI/CD | Monitoring | RDS
+               ───────────────────────────
+          🧱 Subnet | VPC | IAM Roles | EC2 + S3
+               ───────────────────────────
+          ⚙️ AWS CLI | GitHub | SSH | Policies
+               ───────────────────────────
+            🎓 Core Theory + Real Projects
+
+
+
+
+## 🧱 Level 1: Core Services
 | Domain | Service | Purpose |
 |--------|---------|---------|
 | Compute | EC2 | Virtual server to host apps |
@@ -9,7 +24,7 @@
 
 ---
 
-## 🔁 Level 2: Core Support Services You’ll Need Very Soon
+## 🔁 Level 2: Core Support Services
 | Domain | Service | Why It’s Important |
 |--------|---------|--------------------|
 | Security | Security Groups | Control EC2 traffic (like firewalls) |
@@ -41,14 +56,5 @@
 
 
 
-## 🧱 Visual Snapshot of Skill Pyramid
 
-|   🏔️ High-Level Projects + Design      |
-|---------------------------------------|
-| ☁️ Lambda | CI/CD | Monitoring | RDS   |
-|---------------------------------------|
-|🧱 Subnet | VPC | IAM Roles | EC2 + S3 |
-|---------------------------------------|
-|  ⚙️ AWS CLI | GitHub | SSH | Policies  |
-|---------------------------------------|
-|    🎓 Core Theory + Real Projects
+            
