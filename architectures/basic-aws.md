@@ -23,7 +23,7 @@
                           ▼
           https://<bucket>.s3.amazonaws.com/<file>
 
-          ┌─────────────────────────────┐
+          ┌────────────────────────────┐
           │           EC2              │
           │ - Compute instance         │
           │ - Host web servers         │
