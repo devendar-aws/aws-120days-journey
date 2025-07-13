@@ -49,7 +49,7 @@ Welcome to my open learning journey from ₹4.2 LPA to ₹18 LPA — powered by 
 - 📌 Honest Resume (V1) created on Day 07
 - 👨‍💻 GitHub projects, real experience from Amazon highlighted
 - 🎯 Targeting ₹18 LPA Cloud roles
-- [View Resume PDF](link-if-you-want-to-add-later)
+- [View ResumeV1](./resumes/resume-profile-v1.md)
 
 ---
 
