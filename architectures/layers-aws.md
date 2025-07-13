@@ -1,3 +1,17 @@
+## 🏗️ Devendar's AWS Skill Pyramid (Level 0–7)
+
+| Level   | Layer Description                         | Key Services / Concepts                                      |
+|---------|--------------------------------------------|--------------------------------------------------------------|
+| Level 0 | 🌐 AWS Global Infrastructure               | Region, AZ (Availability Zones), Edge Locations              |
+| Level 1 | 🕸️ Networking                              | VPC, Subnets, NAT Gateway, Internet Gateway (IGW), Route Tables |
+| Level 2 | 🔐 IAM & Security                          | IAM Users, Roles, Groups, Policies, Security Groups, KMS     |
+| Level 3 | 💻 Compute & Storage                       | EC2, S3, EBS, EFS                                            |
+| Level 4 | ⚙️ Automation & DevOps                     | Lambda, CodePipeline, CodeDeploy, GitHub Actions             |
+| Level 5 | 📊 Observability & Cost                    | CloudWatch, CloudTrail, AWS Budgets, Cost Explorer           |
+| Level 6 | 🔁 Real-World Project Services             | Athena, Glue, RDS, DynamoDB, Route 53, Load Balancer         |
+| Level 7 | 🤖 Data & AI (Bonus Layer)                 | SageMaker, Redshift, Comprehend, Rekognition, Bedrock       |
+
+
 ## 🧱 LAYER 1: Global Infrastructure
 
     ┌────────────────────────────────────────────────────┐
