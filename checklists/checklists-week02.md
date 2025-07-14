@@ -15,3 +15,15 @@
 | Bonus: `aws s3 presign` usage                            | ❌     |
 
 
+### ✅ Day 09 Checklist – EC2 Deep Dive
+
+| Task                                                     | Status |
+| -------------------------------------------------------- | ------ |
+| Understood EC2 core components                           | ✅      |
+| Launched EC2 instance via CLI                            | ✅      |
+| Verified public IP and key pair                          | ✅      |
+| SSH access using correct user + `.pem`                   | ✅      |
+| Identified AMI mismatch and fixed it                     | ✅      |
+| Terminated EC2 instance safely                           | ✅      |
+| Understood SGs: inbound vs outbound                      | ✅      |
+| Bonus: Used `aws ec2 describe-*` for instance details    | ✅      |
