@@ -27,3 +27,19 @@
 | Terminated EC2 instance safely                           | ✅      |
 | Understood SGs: inbound vs outbound                      | ✅      |
 | Bonus: Used `aws ec2 describe-*` for instance details    | ✅      |
+
+
+### ✅ Day 10 + Day 09 (CLI Carryover) Checklist
+
+| Task                                                                | Status |
+|---------------------------------------------------------------------|--------|
+| Understood IAM Role structure: Trust vs Permission policies         | ✅     |
+| Compared Managed vs Inline Policies                                 | ✅     |
+| Created IAM Role via Console and attached to EC2                    | ✅     |
+| Accessed S3 from EC2 without access keys                            | ✅     |
+| Understood how EC2 assumes a role (temporary credentials)           | ✅     |
+| Understood why `create-role` from EC2 CLI failed (access denied)    | ✅     |
+| CLI demo: Create snapshot from EBS volume                           | ✅     |
+| CLI demo: Create volume from snapshot                               | ✅     |
+| Described snapshots and volumes to verify                           | ✅     |
+

@@ -64,3 +64,24 @@
 - Use verbose SSH for debugging: `ssh -i "EC2 Keys/dev-ec2.pem" ubuntu@13.203.207.64 -v`  
 This will give a detailed log of what’s happening 
 - Always confirm AMI ID when launching from CLI
+
+
+
+## EBS Snapshot CLI Flow (Day 09 continued)
+EBS Volume (allocated to the instance)  
+Snapshot (backup of the volume) - until new volume is created, the snapshot is stored in S3 only but it is invisible  
+New Volume (Storing the backup into the volume)
+
+# Step 1: Create snapshot of a volume
+aws ec2 create-snapshot \
+  --volume-id vol-xxxxxxxxxxxxxxxxx \
+  --description "Snapshot for Day 09"
+
+# Step 2: Describe snapshots
+aws ec2 describe-snapshots --owner-ids self --output table
+
+# Step 3: Create volume from snapshot
+aws ec2 create-volume \
+  --snapshot-id snap-xxxxxxxxxxxxxxxxx \
+  --availability-zone ap-south-1a \
+  --volume-type gp2
