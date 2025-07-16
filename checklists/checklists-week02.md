@@ -43,3 +43,19 @@
 | CLI demo: Create volume from snapshot                               | ✅     |
 | Described snapshots and volumes to verify                           | ✅     |
 
+
+## ✅ Day 11 Checklist – Linux Bash Scripting + IAM Deep Dive
+
+| Task                                                                 | Status |
+|----------------------------------------------------------------------|--------|
+| Understood basics of Bash scripting (echo, variables, loops, etc.)   | ✅     |
+| Wrote `backup.sh` to zip files and move to backup folder             | ✅     |
+| Wrote `s3-upload.sh` to upload files to S3                           | ✅     |
+| Made `.sh` files executable and ran them successfully                | ✅     |
+| Explored `--acl public-read` vs bucket policy                        | ✅     |
+| Debugged ACL error (`AccessControlListNotSupported`)                | ✅     |
+| Understood `aws s3 presign` to generate time-limited access links    | ✅     |
+| Learned IAM Groups: purpose and usage                                | ✅     |
+| IAM Quiz + Linux Quiz                                                | ✅     |
+| Certification-style Quiz                                             | ✅     |
+| Reflected on question difficulty and mock test plan                  | ✅     |

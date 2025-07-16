@@ -52,3 +52,13 @@ Push failed due to branch name mismatch.
     git branch -M main
 
 This renamed local branch to main to match remote.
+
+
+## M-- [Day 11] Public read ACL
+
+- ❗ Got `AccessControlListNotSupported` error when using `--acl public-read`  
+  👉 Root Cause: The bucket had **ACLs disabled via Block Public Access (BPA)**  
+  ✅ Fix: Removed `--acl public-read` from the script. Upload + access worked correctly.
+
+- 🧰 EC2 instance had no `unzip` package  
+  ✅ Fix: Installed using `sudo apt install unzip`, enabling AWS CLI installation.
