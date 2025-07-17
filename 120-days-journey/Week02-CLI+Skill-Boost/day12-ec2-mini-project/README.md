@@ -61,22 +61,22 @@ v
 - In browser: `http://<your-ec2-public-ip>`
 - If Apache is running and HTML is in place, your portfolio appears live.
 
-##🧪 Validation
+## 🧪 Validation
 - ✅ Apache running: sudo systemctl status httpd
 - ✅ Index file exists: ls `/var/www/html/`
 - ✅ Public IP opens website
 
-##🧠 Learnings
+## 🧠 Learnings
 - User data script runs on first boot
 - Apache must be enabled + started
 - Port 80 must be open in Security Group
 - Amazon Linux 2 uses yum package manager
 
-##🐞 Debug Notes (if any)
+## 🐞 Debug Notes (if any)
 - Ensure correct permissions when editing `/var/www/html`
 - Apache not starting? Check logs: `sudo journalctl -xe`
 - Public IP not working? Verify SG and Apache status
 
-##📂 Files Used
+## 📂 Files Used
 - `index.html` – Your static site
 - `userdata.sh` – Script to auto install Apache and deploy HTML
