@@ -29,7 +29,7 @@
 | Bonus: Used `aws ec2 describe-*` for instance details    | ✅      |
 
 
-### ✅ Day 10 + Day 09 (CLI Carryover) Checklist
+### ✅ Day 10 IAM Roles & Policies + Day 09 (CLI Carryover) Checklist
 
 | Task                                                                | Status |
 |---------------------------------------------------------------------|--------|
@@ -44,7 +44,7 @@
 | Described snapshots and volumes to verify                           | ✅     |
 
 
-## ✅ Day 11 Checklist – Linux Bash Scripting + IAM Deep Dive
+### ✅ Day 11 Checklist – Linux Bash Scripting + IAM Deep Dive
 
 | Task                                                                 | Status |
 |----------------------------------------------------------------------|--------|
@@ -59,3 +59,18 @@
 | IAM Quiz + Linux Quiz                                                | ✅     |
 | Certification-style Quiz                                             | ✅     |
 | Reflected on question difficulty and mock test plan                  | ✅     |
+
+
+### ✅ Day 12 Checklist – Mini Portfolio EC2 Hosting
+
+| Task No. | Task Description                                    | Status   |
+|----------|-----------------------------------------------------|----------|
+| 1        | Launched EC2 instance with proper SG and key pair   | ✅ Done  |
+| 2        | Used user-data script to install Apache             | ✅ Done  |
+| 3        | Connected to EC2 via SSH                            | ✅ Done  |
+| 4        | Replaced default HTML with portfolio `index.html`   | ✅ Done  |
+| 5        | Verified Apache and site from browser               | ✅ Done  |
+| 6        | Debugged if site not working initially              | ✅ Done  |
+| 7        | Wrote README.md with all clear steps                | ✅ Done  |
+| 8        | Collected public IP and verified live site          | ✅ Done  |
+
