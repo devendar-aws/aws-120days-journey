@@ -1,4 +1,4 @@
-# 📁 Day 12 – EC2 Mini Project: Portfolio Hosting on Apache
+# 📁 Day 12 – EC2 Mini Project: Portfolio Hosting on Apache (July 17, 2025)
 
 ## 📌 Project Objective
 Host a static portfolio website on an EC2 instance using Apache, and expose it to the internet using a public IP. This is a **Mini Project** for hands-on practice with EC2 basics and Apache web server configuration.
