@@ -56,7 +56,7 @@ Paste this in the **Advanced > User data** section:
 ### ✅ 4. Connect to EC2 via SSH
 Open Git Bash or your terminal and run:  
 `ssh -i "your-key.pem" ec2-user@<your-ec2-public-ip>`  
-(Replace your-key.pem and <your-ec2-public-ip>)
+(Replace your-key.pem and `<your-ec2-public-ip>`)
 
 ### ✅ 5. Transfer Portfolio Files to EC2
 Use scp (from your local terminal) to send the zipped site:  
@@ -65,7 +65,7 @@ Use scp (from your local terminal) to send the zipped site:
 ### ✅ 6. SSH into EC2 and Deploy Files
 Inside your EC2 session:  
 `unzip portfolio-site.zip`  
-`sudo cp -r portfolio-site/* /var/www/html/'  
+`sudo cp -r portfolio-site/* /var/www/html/`  
 This replaces the default Apache welcome page with your custom HTML.
 
 ### ✅ 7. View Your Site
@@ -73,15 +73,15 @@ Open your browser:
 `http://<your-ec2-public-ip>`  
 🎉 You should now see your portfolio site live on the web!
 
-##📂 Folder Structure (Example)
-portfolio-site/
-│
-├── index.html
-├── style.css
-├── images/
-└── scripts/
+## 📂 Folder Structure (Example)
+portfolio-site/  
+│  
+├── index.html  
+├── style.css  
+├── images/  
+└── scripts/  
 
-##🔐 Security Note
+## 🔐 Security Note
 - This method exposes your website via public IP. For production-grade setup, you should:
 - Use Route 53 with domain names
 - Add HTTPS via Let's Encrypt
@@ -93,9 +93,9 @@ portfolio-site/
 - Basic Linux file permissions and structure
 - Practical usage of SCP, SSH, yum, and systemctl
 
-##📝 Author
+## 📝 Author
 Devendar Nandaiahgari — [GitHub](https://github.com/devendar-aws/) | LinkedIn
 
-##📸 Screenshot (Optional)
-Screenshot of the live running site
-![mini-portfolio-screenshot] (./screenshots/mini-portfolio-site.png)
+## 📸 Screenshot (Optional)
+Screenshot of the live running site  
+![mini-portfolio-screenshot](./screenshots/mini-portfolio-site.png)
