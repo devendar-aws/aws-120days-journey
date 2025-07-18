@@ -43,3 +43,33 @@ Today we focused on mastering the AWS Command Line Interface (CLI) and explored 
 
 ---
 
+## ✅ Core Learning Objectives
+
+| Topic                         | Task Description                                           | Done? |
+|------------------------------|------------------------------------------------------------|-------|
+| AWS CLI                      | Understand `aws configure` flow (access key, region, etc.) | ✅     |
+| EC2 CLI Commands             | Practice `describe-instances`, filtering and querying      | ✅     |
+| Tag Filtering                | Use `--filters` to get instance by tag name                | ✅     |
+| IAM Role vs IAM User         | Clear distinction, use cases, and interview-style clarity  | ✅     |
+| Public IP vs Elastic IP      | Difference in lifecycle, allocation, behavior              | ✅     |
+| Launch Requirements          | List parameters to launch EC2 via CLI                      | ✅     |
+| Instance Lifecycle           | Understand start/stop vs terminate effects                 | ✅     |
+| EBS Basics                   | What is EBS, how it's attached and deleted                 | ✅     |
+| Security Group               | Firewall-like behavior (inbound/outbound rules)            | ✅     |
+| Role Inside Instance         | How IAM role gets automatically applied (no keys)          | ✅     |
+| Metadata IP (`169.254...`)   | What it is, how to use it to check IAM role                | ✅     |
+| Quiz Review (3 Questions)    | Recap of key tricky questions from assessment              | ✅     |
+| Honest Self-Scoring          | 14/15 based on Day13 written answers                       | ✅     |
+
+---
+
+## 🧠 Bonus Knowledge Added Today
+
+| Extra Item                                | Description |
+|-------------------------------------------|-------------|
+| `curl 169.254.169.254` Practice           | You practiced retrieving metadata from inside instance |
+| Clarified wrong flag `--verify`           | AWS CLI uses `--dry-run`, no such `--verify` option    |
+| IAM Role Inheritance via Metadata         | Role auto-applies, no manual AWS credentials needed    |
+| Instance vs Region Specificity            | EC2 is region-specific, tag names are not unique       |
+
+---
