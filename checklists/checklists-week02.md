@@ -63,14 +63,30 @@
 
 ### ✅ Day 12 Checklist – Mini Portfolio EC2 Hosting
 
-| Task No. | Task Description                                    | Status   |
-|----------|-----------------------------------------------------|----------|
-| 1        | Launched EC2 instance with proper SG and key pair   | ✅ Done  |
-| 2        | Used user-data script to install Apache             | ✅ Done  |
-| 3        | Connected to EC2 via SSH                            | ✅ Done  |
-| 4        | Replaced default HTML with portfolio `index.html`   | ✅ Done  |
-| 5        | Verified Apache and site from browser               | ✅ Done  |
-| 6        | Debugged if site not working initially              | ✅ Done  |
-| 7        | Wrote README.md with all clear steps                | ✅ Done  |
-| 8        | Collected public IP and verified live site          | ✅ Done  |
+| Task Description                                    | Status   |
+|-----------------------------------------------------|----------|
+| Launched EC2 instance with proper SG and key pair   | ✅ Done  |
+| Used user-data script to install Apache             | ✅ Done  |
+| Connected to EC2 via SSH                            | ✅ Done  |
+| Replaced default HTML with portfolio `index.html`   | ✅ Done  |
+| Verified Apache and site from browser               | ✅ Done  |
+| Debugged if site not working initially              | ✅ Done  |
+| Wrote README.md with all clear steps                | ✅ Done  |
+| Collected public IP and verified live site          | ✅ Done  |
+
+### ✅ Day 13 Checklist - Assessment 02
+
+| Task                                                                 | Done |
+|----------------------------------------------------------------------|------|
+| Configured AWS CLI with `aws configure`                              | ✅   |
+| Ran basic `describe-instances` CLI commands                          | ✅   |
+| Queried instance public IP using `--query`                           | ✅   |
+| Used `--filters` to get data by tag name                             | ✅   |
+| Understood Elastic IP vs Public IP                                   | ✅   |
+| Understood Security Group purpose and firewall rules                 | ✅   |
+| Learned difference: IAM User vs IAM Role                             | ✅   |
+| Understood what 169.254.169.254 is and how it's used                 | ✅   |
+| Practiced 2 CLI tasks (Public IP by tag, Volume ID by state)         | ✅   |
+| Completed CLI/EC2/IAM Role mini quiz                                 | ✅   |
+| Day 13 README and Checklist generated                                 | ✅   |
 
