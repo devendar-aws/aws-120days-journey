@@ -90,3 +90,14 @@
 | Completed CLI/EC2/IAM Role mini quiz                                 | ✅   |
 | Day 13 README and Checklist generated                                 | ✅   |
 
+### ✅ Day 14 checklist – Resume/Profile V2 
+
+| Task | Status |
+|------|--------|
+| 📝 EC2 Interview Q&A (30 core Qs + advanced set) – Markdown + PDF | ✅ Done |
+| 📚 Flashcards + Beginner/Intermediate/Advanced Filters | ⏳ Pending |
+| 📄 Clean PDF version (Book-style, Bold Qs, Plain A) | ⏳ Pending |
+| 🗂️ `ec2-summary.md` added to `learnings/` folder | ✅ Done |
+| 🧠 Revision-ready format aligned to weekly schedule | ✅ Done |
+| 📁 `README.md` files (repo, week02, day14) generated | ✅ Done |
+| 🧼 Cleaned up repo structure + honest documentation | ✅ Done |
