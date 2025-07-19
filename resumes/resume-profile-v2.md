@@ -15,7 +15,7 @@ Targeting **₹18 LPA+ Cloud Engineer roles** with deep hands-on experience in A
 ## 💻 Projects
 
 ### 📁 EC2 Static Website Deployment with GitHub Sync  
-**GitHub:** [Project Folder](https://github.com/devendar-aws/aws-120days-journey/tree/main/projects/project02-ec2-static-website)  
+**GitHub:** [Project Folder](https://github.com/devendar-aws/aws-120days-journey/tree/main/projects/project-mini-portfolio-site-ec2)  
 **Duration:** July 2025  
 **Summary:**  
 Launched and configured a Linux EC2 instance to deploy a static portfolio website using Apache and GitHub-based automation. Focused on IAM role-based security, CLI usage, and metadata validation.
