@@ -16,3 +16,30 @@
 | ✅ Day 15 complete                                                    | 🎯     |
 
 ---
+
+### ✅ Day 16 Checklist – Lambda CRUD Operations (July 21, 2025)
+
+| Task Category               | Task Description                                                                | Status |
+|----------------------------|----------------------------------------------------------------------------------|--------|
+| **DynamoDB Setup**         | Created `Tasks` table with `taskId` as Partition Key                           | ✅     |
+|                            | Manually inserted an initial item via console                                   | ✅     |
+| **Lambda Function**        | Connected Lambda to DynamoDB using `boto3`                                      | ✅     |
+|                            | Implemented `create` operation                                                  | ✅     |
+|                            | Implemented `read` operation                                                    | ✅     |
+|                            | Implemented `update` operation                                                  | ✅     |
+|                            | Implemented `delete` operation                                                  | ✅     |
+|                            | Handled reserved keyword (`status`) using ExpressionAttributeNames              | ✅     |
+|                            | Added log statements for all branches                                           | ✅     |
+|                            | Added validation for missing `taskId`                                           | ✅     |
+| **Test Events**            | Created test event for `create` and verified                                    | ✅     |
+|                            | Created test event for `read` and verified                                      | ✅     |
+|                            | Created test event for `update` and verified                                    | ✅     |
+|                            | Created test event for `delete` and verified                                    | ✅     |
+| **Troubleshooting**        | Solved "stale code" issue by re-creating the Lambda function                    | ✅     |
+| **Docs & Wrap-up**         | Cleaned up final Lambda code                                                    | ✅     |
+|                            | Completed `README.md`                                                           | ✅     |
+|                            | Completed `checklist.md` in table format                                        | ✅     |
+
+---
+
+
