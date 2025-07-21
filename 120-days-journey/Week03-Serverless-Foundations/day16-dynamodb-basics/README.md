@@ -163,16 +163,16 @@
 - Library: `boto3`
 - Handler: `lambda_function.lambda_handler`
 - IAM Role with permissions for: `AmazonDynamoDBFullAccess` for now
-- or can also use
-    {
-      "Effect": "Allow",
-      "Action": [
-        "dynamodb:PutItem",
-        "dynamodb:GetItem",
-        "dynamodb:UpdateItem",
-        "dynamodb:DeleteItem"
-     ],
-     "Resource": "arn:aws:dynamodb:<region>:<account-id>:table/Tasks"
+- or can also use  
+    {  
+      "Effect": "Allow",  
+      "Action": [  
+        "dynamodb:PutItem",  
+        "dynamodb:GetItem",  
+        "dynamodb:UpdateItem",  
+        "dynamodb:DeleteItem"  
+     ],  
+     "Resource": "arn:aws:dynamodb:<region>:<account-id>:table/Tasks"  
     }  
 for least privileges
 
