@@ -55,7 +55,7 @@ This renamed local branch to main to match remote.
 
 ---
 
-## M-- [Day 11] Public read ACL
+## 🧭 [Day 11] Public read ACL
 
 - ❗ Got `AccessControlListNotSupported` error when using `--acl public-read`  
   👉 Root Cause: The bucket had **ACLs disabled via Block Public Access (BPA)**  
@@ -66,7 +66,7 @@ This renamed local branch to main to match remote.
 
 ---
 
-## M-- [Day 16] Lambda + DynamoDB CRUD
+## 🧭 [Day 16] Lambda + DynamoDB CRUD
 | 🕒 Time          | 🔧 Issue                                                 | 🧠 Root Cause                                                         | ✅ Fix                                                     |
 | ---------------- | -------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
 | ✅ Initial        | Getting consistent `"Item created"` response             | None                                                                  | Lambda Create (PUT) was working correctly                 |
