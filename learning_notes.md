@@ -93,8 +93,13 @@ This document captures key learnings, insights, and memorable technical concepts
   - Amazon roles mapped to data/cloud context
 - Added week01 summary, debug_notes.md, learning_notes.md, and README.md files.
 
+
+## 📅 [Day 16] DynamoDB Basics - CRUD operations
+- DynamoDB reserved keywords (like status, name, etc.) must be aliased using ExpressionAttributeNames.
+- Indentation in Python is strict — even one space can cause syntax errors.
+- Lambda Deployment Delay: After updating code, ensure it is fully deployed before re-testing.
+- Partition Key = Primary Key when only one key is defined (e.g., taskId).
+
 ## ✨ More learnings will be added as I go deeper into AWS, DevOps, and cloud project building.
 
 Stay tuned. This file will help me quickly revise and reinforce everything when needed.
-
-

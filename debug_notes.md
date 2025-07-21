@@ -40,7 +40,7 @@ instead of:
 # Then resolved the merge message (left as default)
     git push origin main
 
-
+---
 
 ## 🧭 [Day 5] Local Branch Was master, Not main
 
@@ -53,6 +53,7 @@ Push failed due to branch name mismatch.
 
 This renamed local branch to main to match remote.
 
+---
 
 ## M-- [Day 11] Public read ACL
 
@@ -62,3 +63,16 @@ This renamed local branch to main to match remote.
 
 - 🧰 EC2 instance had no `unzip` package  
   ✅ Fix: Installed using `sudo apt install unzip`, enabling AWS CLI installation.
+
+---
+
+## M-- [Day 16] Lambda + DynamoDB CRUD
+| 🕒 Time          | 🔧 Issue                                                 | 🧠 Root Cause                                                         | ✅ Fix                                                     |
+| ---------------- | -------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
+| ✅ Initial        | Getting consistent `"Item created"` response             | None                                                                  | Lambda Create (PUT) was working correctly                 |
+| ❌ Update Error 1 | `ValidationException: reserved keyword: status`          | `"status"` is a **reserved word** in DynamoDB                         | Used `ExpressionAttributeNames` to alias `status` as `#s` |
+| ❌ Update Error 2 | `Syntax error: expected an indented block after 'elif'`  | Python indentation error after `elif task == "update":`               | Fixed indentation under the `elif` block                  |
+| ❌ Deployment lag | Lambda ran old version after update                      | Lambda still executing **previous version** due to ongoing deployment | Waited for deployment to complete or redeployed manually  |
+| ✅ Final          | Create, Read, Update, Delete all working via test events | -                                                                     | Clean, tested function for all CRUD operations            |
+
+---
