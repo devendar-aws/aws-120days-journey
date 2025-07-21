@@ -163,9 +163,9 @@
 - Library: `boto3`
 - Handler: `lambda_function.lambda_handler`
 - IAM Role with permissions for: `AmazonDynamoDBFullAccess` for now
-- or can also use
-    {
-      "Effect": "Allow",
+- or can also use  
+    {  
+      "Effect": "Allow",  
       "Action": [  
         "dynamodb:PutItem",  
         "dynamodb:GetItem",  
