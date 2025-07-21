@@ -166,13 +166,13 @@
 - or can also use
     {
       "Effect": "Allow",
-      "Action": [
-        "dynamodb:PutItem",
-        "dynamodb:GetItem",
-        "dynamodb:UpdateItem",
-        "dynamodb:DeleteItem"
-     ],
-     "Resource": "arn:aws:dynamodb:<region>:<account-id>:table/Tasks"
+      "Action": [  
+        "dynamodb:PutItem",  
+        "dynamodb:GetItem",  
+        "dynamodb:UpdateItem",  
+        "dynamodb:DeleteItem"  
+     ],  
+     "Resource": "arn:aws:dynamodb:<region>:<account-id>:table/Tasks"  
     }  
 for least privileges
 
