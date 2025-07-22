@@ -1,4 +1,4 @@
-### ✅ Day 15 checklist – Lambda Basics (20-Jul)
+### ✅ Day 15 checklist – Lambda Basics (20 July, 2025)
 
 | Task                                                                 | Status |
 |----------------------------------------------------------------------|--------|
@@ -42,4 +42,13 @@
 
 ---
 
+### ✅ Day 17 Checklist – API Gateway link (22 July, 2025)
 
+| Task                           | Status |
+| ------------------------------ | ------ |
+| DynamoDB table created         | ✅      |
+| Lambda function created        | ✅      |
+| IAM permissions attached       | ✅      |
+| API Gateway integration done   | ✅      |
+| `curl` tested for all CRUD ops | ✅      |
+| Code pushed to GitHub          | ✅      |
