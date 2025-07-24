@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Todo App</h1>
+    <div class="input-container">
+        <input type="text" id="taskId" placeholder="Task ID">
+        <input type="text" id="description" placeholder="Description">
+        <input type="text" id="status" placeholder="Status (e.g. Pending)">
+        <button onclick="addTask()">Add</button>
+        <button onclick="updateTask()">Update</button>
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
