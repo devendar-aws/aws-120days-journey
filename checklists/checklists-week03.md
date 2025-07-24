@@ -52,3 +52,33 @@
 | API Gateway integration done   | ✅      |
 | `curl` tested for all CRUD ops | ✅      |
 | Code pushed to GitHub          | ✅      |
+
+---
+
+# ✅ TODO App - Progress Checklist (Day 18 & Day 19)
+
+| ✅ Task Done? | Feature / Task                              | Notes / Status                                               |
+|--------------|----------------------------------------------|--------------------------------------------------------------|
+| ✅           | Create DynamoDB Table                         | Table created with `taskId` as Partition Key                |
+| ✅           | Configure IAM Role for Lambda                 | Lambda granted DynamoDB full access via execution role      |
+| ✅           | Write Lambda function                         | Handled POST, GET, PUT, DELETE                              |
+| ✅           | Set up API Gateway                            | REST API with 4 methods integrated to Lambda                |
+| ✅           | Enable CORS in API Gateway                    | Access from HTML/JS frontend enabled                        |
+| ✅           | Build HTML/CSS/JS Frontend                    | Clean, minimal UI with dynamic form and list rendering      |
+| ✅           | Connect Frontend to API                       | Used `fetch()` with correct endpoints and methods           |
+| ✅           | Test POST (Add Task)                          | Tested using cURL and HTML form                             |
+| ✅           | Test GET (Fetch Tasks)                        | Tasks correctly retrieved and rendered                      |
+| ✅           | Test PUT (Update Task)                        | Tasks updated by `taskId` using dropdown + form             |
+| ✅           | Test DELETE (Delete Task)                     | Tasks deleted successfully                                  |
+| ✅           | Debug CORS, region mismatch, syntax errors    | Resolved line indent error, wrong region issue              |
+| ✅           | Validate full CRUD from frontend              | All operations working end-to-end                           |
+| [x]          | Monitor Lambda using CloudWatch Logs          | To be completed on **Day 20**                               |
+| [x]          | Start Interview Questions (3 per day)         | Scheduled for **Day 20** onward                             |
+
+---
+
+### 🚀 Final Status:
+- ✅ Completed full stack TODO App with frontend + API + Lambda + DynamoDB.
+- 🛠️ Debugged deployment and syntax issues with patience and clarity.
+- 😌 Feeling satisfied — project is now fully functional.
+
