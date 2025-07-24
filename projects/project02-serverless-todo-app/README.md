@@ -39,6 +39,7 @@ DynamoDB (NoSQL Storage)
   - CSS for simple styling
   - JavaScript `fetch()` to call APIs
   - Dropdown + Input Form for interactive editing
+[screenshot](./screenshots/todo-app.png)
 
 - **Backend**
   - Lambda function handling all 4 methods
