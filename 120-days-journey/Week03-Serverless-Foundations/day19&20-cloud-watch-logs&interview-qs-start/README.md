@@ -30,8 +30,8 @@ This is an extended version of my TODO App built using **AWS Lambda + API Gatewa
   "description": "Try Lambda",
   "status": "pending"
 }
-```
 🧭 HTTP Method: POST
+```
 📤 Returning response:
 ```
 {
