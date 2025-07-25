@@ -1,4 +1,4 @@
-# í° Python Day 4 â€” Lists & Tuples
+#ğŸ Python Day 4 â€” Lists & Tuples
 
 **Date:** July 25, 2025  
 **Focus:** Indexing, slicing, methods, iteration, list comprehensions
@@ -7,7 +7,7 @@
 
 ## âœ… Topics Covered
 
-### í´¹ Lists
+###ğŸ”¹ Lists
 - **Definition**: Ordered, mutable sequences of items.
 - **Common Operations**:
   - Indexing: `my_list[0]`
@@ -16,7 +16,7 @@
   - List Comprehension: `[x for x in list if condition]`
   - Methods: `.append()`, `.pop()`, `.remove()`, `.sort()`, `.reverse()`
 
-### í´¹ Tuples
+###ğŸ”¹ Tuples
 - **Definition**: Ordered, immutable sequences of items.
 - **Why Use Tuples**:
   - Safer than lists (immutable)
@@ -27,7 +27,7 @@
   name, age = ("Alice", 28)
   print(f"{name} is {age} years old")
 ```
-## í·  Practice Patterns
+##ğŸ§  Practice Patterns
 |  # | Problem         | Description                                               |
 | -- | --------------- | --------------------------------------------------------- |
 |  1 | Even Numbers    | Printed even numbers from a list using list comprehension |
@@ -46,7 +46,7 @@ inventory = [("apple", 10), ("banana", 5), ("orange", 8)]
 for fruit, qty in inventory:
     print(f"We have {qty} {fruit}s")
 ```
-## í´š Summary
+##ğŸ”š Summary
 - Lists are mutable, while tuples are immutable.
 - List comprehension makes filtering easy.
 - Tuple unpacking improves readability when looping over structured data.
