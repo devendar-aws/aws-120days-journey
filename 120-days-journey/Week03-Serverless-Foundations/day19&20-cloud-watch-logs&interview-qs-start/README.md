@@ -22,17 +22,18 @@ This is an extended version of my TODO App built using **AWS Lambda + API Gatewa
 - Final API return payload
 
 ### 🔍 Sample Log Snippet
-
+📥 Received event:
 ```
- M-% Received event:
 {
   "httpMethod": "POST",
   "taskId": "1",
   "description": "Try Lambda",
   "status": "pending"
 }
- M-- HTTP Method: POST
- M-$ Returning response:
+```
+🧭 HTTP Method: POST
+📤 Returning response:
+```
 {
   "statusCode": 200,
   "body": "{\"message\": \"Task created successfully\"}"
@@ -72,9 +73,9 @@ curl -X DELETE https://your-api-url/dev/todo \
   -d '{"httpMethod": "DELETE", "taskId": "1"}'
 ```
 
-✅ All responses were correct.
-✅ CloudWatch logs showed accurate operation tracking.
-✅ Verified API flow, logs, and return status codes.
+✅ All responses were correct.  
+✅ CloudWatch logs showed accurate operation tracking.  
+✅ Verified API flow, logs, and return status codes.  
 
 
 ## 🎯 Interview Practice (Lambda Logs)
