@@ -55,7 +55,7 @@
 
 ---
 
-# ✅ TODO App - Progress Checklist (Day 18 & Day 19)
+### ✅ TODO App - Progress Checklist (Day 18 & Day 19)
 
 | ✅ Task Done? | Feature / Task                              | Notes / Status                                               |
 |--------------|----------------------------------------------|--------------------------------------------------------------|
@@ -81,4 +81,20 @@
 - ✅ Completed full stack TODO App with frontend + API + Lambda + DynamoDB.
 - 🛠️ Debugged deployment and syntax issues with patience and clarity.
 - 😌 Feeling satisfied — project is now fully functional.
+
+---
+
+
+### ✅ Day 20 Checklist – Jul 25, 2025 (AWS Journey – Day 20 of 120)
+
+| Task Description                                                    | Status   |
+|---------------------------------------------------------------------|----------|
+| Reviewed CloudWatch Logs for all 4 HTTP methods                     | ✅ Done   |
+| Printed incoming events using `json.dumps(event, indent=2)`         | ✅ Done   |
+| Logged Lambda responses using `json.dumps(resp, indent=2)`          | ✅ Done   |
+| Deployed Lambda function and retested endpoints using cURL         | ✅ Done   |
+| Wrote detailed `day20_readme.md` with CloudWatch debug insights     | ✅ Done   |
+| Began Interview Q&A for tech and scenario-based preparation         | ✅ Done   |
+| Answered 5 questions with clarity and correctness                   | ✅ Done   |
+| Understood the impact of `indent=2` vs `indent=4` in CloudWatch     | ✅ Done   |
 
