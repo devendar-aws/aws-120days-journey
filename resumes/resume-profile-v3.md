@@ -14,6 +14,24 @@ Targeting **₹18 LPA+ Cloud Engineer roles** with deep hands-on experience in A
 
 ## 💻 Projects
 
+### ✅ Serverless TODO App with Lambda, API Gateway & DynamoDB
+**GitHub:** [Project Folder](https://github.com/devendar-aws/aws-120days-journey/tree/main/projects/project02-serverless-todo-app)  
+**Duration:** July 2025  
+**Summary:**  
+Designed and implemented a full CRUD TODO application using a serverless stack—Lambda (Python), API Gateway, and DynamoDB—focused on real-world debugging, input validation, and logging.
+
+- Implemented Create, Read, Update, and Delete operations using AWS Lambda in Python.
+- Integrated API Gateway with custom resource paths and method-level integration.
+- Stored TODO items in DynamoDB using structured schema (taskId, description, status).
+- Handled errors using `try-except` blocks with custom messages and status codes.
+- Used CloudWatch Logs for step-by-step debugging and response tracing.
+- Triggered APIs via `curl` for clean CLI-based testing (no Postman).
+
+**Tech Used:** Lambda (Python), API Gateway, DynamoDB, IAM, AWS CLI, CloudWatch  
+**Outcome:** Deployed a fully functional REST API-based TODO app with scalable, serverless architecture.
+
+---
+
 ### 📁 EC2 Static Website Deployment with GitHub Sync  
 **GitHub:** [Project Folder](https://github.com/devendar-aws/aws-120days-journey/tree/main/projects/project-mini-portfolio-site-ec2)  
 **Duration:** July 2025  
@@ -69,12 +87,12 @@ Deployed a fully functional static website using Amazon S3 with versioning, buck
 
 ---
 
-## 📚 Skills
+## 🛠 Skills
 
-- **AWS Core:** EC2, S3, IAM, VPC, EIP, Security Groups, Metadata, User Data  
-- **Tools & Platforms:** AWS CLI, GitHub, Ubuntu/Linux, VS Code  
-- **DevOps Concepts:** SSH Key Management, CLI Automation, Server Hosting  
-- **Programming/Scripting:** HTML, Bash, Markdown
+- **AWS Core:** Lambda, API Gateway, DynamoDB, EC2, S3, IAM, VPC, EIP, CloudWatch, Security Groups  
+- **DevOps Tools:** AWS CLI, GitHub, Linux/Ubuntu, VS Code  
+- **Programming/Scripting:** Python (Lambda), Bash, HTML, Markdown  
+- **Cloud Concepts:** Serverless Architecture, REST APIs, Infrastructure as Code (manual), Logging, Access Management  
 
 ---
 
@@ -101,4 +119,4 @@ Deployed a fully functional static website using Amazon S3 with versioning, buck
 
 ---
 
-*Resume last updated: July 19, 2025*
+*Resume last updated: July 26, 2025*

@@ -59,3 +59,75 @@
 | Where are logs stored? | Amazon CloudWatch |
 | How to access a key in `event`? | `event.get("key")` | `event.items()`
 | Is Lambda free in Free Tier? | Yes, 1M requests + 400,000 GB-seconds per month |
+
+---
+
+---
+
+##  ~G DynamoDB Flashcards
+
+| Concept | Answer |
+|--------|--------|
+| What is DynamoDB? | Fully managed NoSQL database by AWS |
+| Type of database? | Key-value and document-based |
+| What is a primary key? | Uniquely identifies each item (Partition key or Partition + Sort key) |
+| Table creation requires? | Table name + primary key definition |
+| Read/Write modes? | On-demand or Provisioned |
+| SDK to access DynamoDB in Python? | `boto3` |
+| Default consistency model? | Eventually consistent (Strong optional) |
+| What is a Partition Key? | Determines how data is distributed across partitions |
+| How is data retrieved? | Using `GetItem`, `Query`, or `Scan` |
+| Best practice for querying? | Use indexes, avoid full table scans |
+
+---
+
+##  ~G API Gateway Flashcards
+
+| Concept | Answer |
+|--------|--------|
+| What is API Gateway? | Managed service to create and expose APIs |
+| Types of APIs supported? | REST, HTTP, WebSocket |
+| API Gateway integrates with? | Lambda, EC2, any backend |
+| Common methods used? | GET, POST, PUT, DELETE |
+| What is a Resource? | URL path like `/tasks` |
+| What is a Method? | Operation on a resource (e.g., GET on `/tasks`) |
+| Test method in console? | Use "Test" button after selecting a method |
+| Deployment requirement? | Create a stage (e.g., `dev`, `prod`) |
+| Endpoint type used? | Regional, Edge-Optimized, Private |
+| Error troubleshooting tip? | Check method integration, logs, permissions |
+
+---
+
+##  ~G CloudWatch Logs Flashcards
+
+| Concept | Answer |
+|--------|--------|
+| What is CloudWatch Logs? | Logging service for AWS resources |
+| Where are Lambda logs stored? | Under Log Groups > `/aws/lambda/<function-name>` |
+| What is a Log Stream? | Individual stream of logs per invocation or instance |
+| How to log from Lambda? | Use `print()` in Python code |
+| Do logs auto-create? | Only after function is invoked |
+| Log retention default? | Never expires unless manually set |
+| Useful for debugging? | Yes, can trace errors and outputs |
+| How to view logs? | Console > CloudWatch > Logs |
+| Can we filter logs? | Yes, with Filter patterns |
+| Cost control tip? | Set retention and export logs if needed |
+
+---
+
+##  ~G Lambda CRUD Integration Flashcards
+
+| Concept | Answer |
+|--------|--------|
+| What does CRUD stand for? | Create, Read, Update, Delete |
+| What service handles business logic? | AWS Lambda |
+| What handles HTTP requests? | API Gateway |
+| Where is data stored? | DynamoDB |
+| SDK used in Lambda for DynamoDB? | `boto3.resource("dynamodb")` |
+| How to test locally? | Use `curl` with API endpoint |
+| Common error source? | Region mismatch or IAM role permissions |
+| Best logging practice? | Use structured logs for inputs/outputs |
+| Key deployment step in API Gateway? | Deploy to a Stage (e.g., `dev`) |
+| Response format in Lambda? | JSON with `statusCode` and `body` |
+
+

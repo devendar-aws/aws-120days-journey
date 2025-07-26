@@ -24,11 +24,7 @@ Welcome to my open learning journey from ₹4.2 LPA to ₹18 LPA — powered by 
 | 06  | Assessment + EIP + Revision   | EIP lifecycle, IAM/EC2/S3 review |
 | 07  | Project 1 + Resume V1         | S3 Website Project + Honest Resume |
 
----
-
-## 🔨 Projects Completed
-
-### ✅ [Project 1: Static Website Hosting on S3](projects/project01-s3-static-website/)
+** ✅ Project 1**: [Static Website Hosting on S3](projects/project01-s3-static-website/)
 
 - Hosted a live HTML site on S3
 - Configured Bucket Policy + BPA + Website Config
@@ -48,18 +44,38 @@ Welcome to my open learning journey from ₹4.2 LPA to ₹18 LPA — powered by 
 | 13  | Assessment + Cleanup          | IAM/EC2/CLI review + GitHub cleanup |
 | 14  | Week Review + Resume V2       | Updated GitHub, resume v2 |
 
-**Mini Project**: [EC2 Portfolio Hosting](projects/project-mini-ec2-site/)  
+**Mini Project**: [EC2 Portfolio Hosting](projects/project-mini-portfolio-site-ec2/)  
 Used user-data to install Apache, deployed HTML portfolio via Git, configured SG/Tag.
+
+---
+
+### ✅ Week 03 Summary (July 20–26, 2025)
+
+| Day | Theme                         | Key Focus Areas |
+|-----|-------------------------------|------------------|
+| 15  | Lambda Basics                 | Console + CLI Lambda hands-on |
+| 16  | DynamoDB Basics               | Tables, Partition Keys, CLI |
+| 17  | API Gateway Introduction      | REST API Gateway walkthrough |
+| 18  | TODO App - Lambda POST Logic  | Create task (Lambda → DDB) |
+| 19  | GET/PUT/DELETE Integration    | Read, Update, Delete Task |
+| 20  | CloudWatch Logs Debugging     | Console + CLI troubleshooting |
+| 21  | Assessment + Week Review      | Full-stack project review + V3 Resume |
+
+** ✅ Project 2**: [Serverless TODO App](projects/project02-serverless-todo-app/)
+- Built a TODO app backend using **Lambda + API Gateway + DynamoDB**
+- Implemented full **CRUD** functionality using separate Lambda functions
+- Used **CloudWatch Logs** for debugging + **IAM Roles** for permissions
+- Practiced **cURL** testing, **status codes**, and real-world logic handling
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-- **AWS**: S3, EC2, IAM, CLI
+- **AWS**: S3, EC2, IAM, CLI, Lambda, DynamoDB, API Gateway, CloudWatch
 - **Linux**: Bash Scripting, User-data, Apache
-- **GitHub**: GitHub CLI, SSH, `.pem` handling
-- **Dev Skills**: Shell scripting, JSON policies
-- **Docs & Logs**: Markdown docs, CLI logs
+- **GitHub**: GitHub CLI, SSH keys, `.pem` file handling
+- **Dev Skills**: Shell scripting, JSON policies, IAM policies, REST API basics
+- **Docs & Logs**: Markdown docs, debug logs, CLI experiments
 
 ---
 
@@ -73,7 +89,7 @@ Used user-data to install Apache, deployed HTML portfolio via Git, configured SG
 ---
 
 ## 📄 Resume / Profile
-- 📝 [`View Resume`](./resumes/resume-profile-v2.md): Updated on Day 14 with EC2 project  
+- 📝 [`View Resume`](./resumes/resume-profile-v3.md): Updated on Day 14 with EC2 project  
 - 👨‍💻 GitHub reflects honest project work
 
 ---
@@ -84,17 +100,9 @@ Used user-data to install Apache, deployed HTML portfolio via Git, configured SG
 |-----|---------------------------------------------|-------------|---------|
 | 1   | Static Website Hosting on S3                | Core        | ✅ Done |
 | M1  | EC2-hosted Portfolio Website (Apache)       | Mini        | ✅ Done |
+| 2   | Serverless TODO App (Lambda + API + DDB)    | Core        | ✅ Done |
 
 ---
-
-## 📅 Next Up (Week 03 Preview)
-
-- 🧩 Project 2: Serverless TODO App (Lambda + DynamoDB)
-- 🧠 Dive into Lambda, IAM roles, and DynamoDB integration
-- 📄 Resume polishing + certification track warm-up
-
----
-
 
 ✅ This repository reflects real, hands-on AWS learning.  
 No fake projects. No inflated claims. Just honest skill-building.

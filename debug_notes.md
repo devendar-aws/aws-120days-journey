@@ -76,3 +76,72 @@ This renamed local branch to main to match remote.
 | ✅ Final          | Create, Read, Update, Delete all working via test events | -                                                                     | Clean, tested function for all CRUD operations            |
 
 ---
+
+## 🧭 [Day 18] API Gateway Testing (cURL vs Browser vs Postman)
+
+**Problem:**  
+PUT and DELETE methods failed in Postman with CORS/403 errors.
+
+**Root Cause:**  
+- CORS not enabled for all methods (especially PUT/DELETE).
+- Postman skips some preflight behavior (like browsers trigger).
+
+**Fix:**  
+- Enabled CORS (OPTIONS method) in API Gateway.
+- Tested using browser and cURL instead of Postman.
+
+```
+curl -X PUT https://<api-id>.execute-api.<region>.amazonaws.com/dev/tasks \
+  -H "Content-Type: application/json" \
+  -d '{"task": "update", "taskId": "001", "description": "Updated desc", "status": "done"}'
+```
+
+---
+
+## 🧭 [Day 19] CloudWatch Logs Not Appearing
+
+**Problem:**  
+Lambda executed, but no logs in CloudWatch.
+
+**Root Cause:**
+- Missing logs:CreateLogStream or logs:PutLogEvents permissions.
+- Lambda role didn’t include basic execution policy.
+
+**Fix:**
+- Attached AWSLambdaBasicExecutionRole to Lambda's IAM role.
+- Redeployed the function.
+- ✅ Logs started appearing in CloudWatch.
+
+---
+
+## 🧭 [Day 19] DynamoDB ResourceNotFoundException
+
+**Problem:**  
+PutItem failed even though table name was correct.
+
+**Root Cause:**
+- DynamoDB table created in a different AWS region than Lambda.
+
+**Fix:**
+- Re-created DynamoDB table in same region as Lambda.
+- ✅ All operations (PUT/GET) worked after region match.
+
+---
+
+## 🧭 [Day 20] Browser CORS Error
+
+**Problem:**  
+Browser fetch to API Gateway failed:
+```
+Access to fetch at <API> from origin '<site>' has been blocked by CORS policy
+```
+**Root Cause:**  
+API Gateway did not return Access-Control-Allow-Origin in response.
+
+**Fix:**
+- Enabled CORS for all methods (GET, POST, PUT, DELETE).
+- Added headers manually in Integration Response > Header Mapping.
+- Redeployed the stage.
+
+---
+

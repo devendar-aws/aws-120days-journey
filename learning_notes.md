@@ -100,6 +100,65 @@ This document captures key learnings, insights, and memorable technical concepts
 - Lambda Deployment Delay: After updating code, ensure it is fully deployed before re-testing.
 - Partition Key = Primary Key when only one key is defined (e.g., taskId).
 
+---
+
+## 📅 [Day 17] API Gateway + Lambda Integration
+
+- Understood the purpose and working of Amazon API Gateway.
+- Linked API Gateway (REST API) with AWS Lambda to expose functions via HTTPS endpoints.
+- Created Resources (`/tasks`) and Methods (POST, GET, PUT, DELETE).
+- Tested end-to-end flow using `curl` commands from CLI.
+- Learned how to use test events in Lambda and troubleshoot integration issues.
+- Realized importance of correct region, deployment stage, and method types.
+
+---
+
+## 📅 [Day 18] Lambda CRUD with DynamoDB
+
+- Connected Lambda to DynamoDB to implement TODO app.
+- Handled JSON payloads to perform:
+  - POST (create)
+  - GET (read)
+  - PUT (update)
+  - DELETE (delete)
+- Used `boto3` in Python to interact with DynamoDB.
+- Understood Lambda role permissions for DynamoDB access.
+- Used separate functions or conditions for each task inside Lambda handler.
+
+---
+
+## 📅 [Day 19] CloudWatch Logs & Debugging
+
+- Used Amazon CloudWatch Logs to monitor Lambda invocations and errors.
+- Learned how to add `print()` statements to debug within Lambda.
+- Explored Log Groups and Log Streams per Lambda function.
+- Realized logs are created only after first invocation post deployment.
+- Improved logging clarity using consistent structure (`event`, `response`, etc.).
+
+---
+
+## 📅 [Day 20] Interview Qs + Cleanup
+
+- Started preparing short answers to common AWS interview questions:
+  - What is Lambda?
+  - How does API Gateway integrate with Lambda?
+  - How does DynamoDB work with Lambda?
+- Reviewed entire TODO app flow and refined the code, logs, and comments.
+- Organized project folder and ensured each operation works reliably.
+
+---
+
+## 📅 [Day 21] Assessment 3 + Week 3 Review
+
+- Took **Assessment 03** covering:
+  - Lambda Basics
+  - DynamoDB CRUD
+  - API Gateway integration
+  - Debugging via CloudWatch
+- Realized gaps in DynamoDB error handling and ExpressionAttributeNames.
+- Completed week03 checklist, updated learning_notes.md and commands-week03.
+- Felt confident about building REST APIs using AWS-native services alone.
+
 ## ✨ More learnings will be added as I go deeper into AWS, DevOps, and cloud project building.
 
 Stay tuned. This file will help me quickly revise and reinforce everything when needed.

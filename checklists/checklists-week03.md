@@ -98,3 +98,24 @@
 | Answered 5 questions with clarity and correctness                   | ✅ Done   |
 | Understood the impact of `indent=2` vs `indent=4` in CloudWatch     | ✅ Done   |
 
+---
+
+### 📋 Day 21 Checklist – July 26 (Saturday)
+**Theme:** Lambda + DynamoDB Integration | API Flow | Assessment 03
+
+| Task                                                                 | Status    | Notes |
+|----------------------------------------------------------------------|-----------|-------|
+| Reviewed Lambda handler logic for all 4 methods (POST, GET, PUT, DELETE) | ✅ Done    | Clear understanding now |
+| Recalled how `taskId` is used as partition key                       | ✅ Done    | Used in all operations |
+| Understood error handling inside Lambda                              | ✅ Done    | try–except pattern |
+| Reviewed where CloudWatch logs are stored                            | ✅ Done    | Group > Stream > Events |
+| Learnt the meaning of “payload” (request and response)               | ✅ Done    | Clear concept |
+| Learnt the importance of `statusCode` in API Gateway + Lambda flow  | ✅ Done    | Client-visible output |
+| Completed full Assessment 03 (6 Questions)                           | ✅ Done    | Answered all honestly |
+| Understood the role of the client in the flow                        | ✅ Done    | Frontend/web user |
+| Completed README.md summarizing Day 21                               | ✅ Done    | ✔ Posted |
+| Wrote Reflection and uploaded `assessment03.md`                      | ✅ Done    | ✔ Posted |
+
+---
+
+## 🌕 Overall Status: **100% Completed**
