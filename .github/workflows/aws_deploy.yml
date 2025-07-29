@@ -21,6 +21,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-south-1
 
-    - name: Copying files from static site to S3
+    - name: Syncing static site to S3
       run: |
-        aws s3 cp projects/project-bonus-ci-cd-with-github-actions/static-site/ s3://dev-ci-cd-project/ --recursive
+        aws s3 sync projects/project-bonus-ci-cd-with-github-actions/static-site/ s3://dev-ci-cd-project/ --delete
