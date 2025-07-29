@@ -2,10 +2,10 @@ name: Deploy Static Website to S3
 
 on:
   push:
-    paths:
-      - 'projects/project-bonus-ci-cd-with-github-actions/static-site/**'
     branches:
       - main
+    paths:
+      - 'projects/project-bonus-ci-cd-with-github-actions/static-site/**'
 
 jobs:
   deploy:
