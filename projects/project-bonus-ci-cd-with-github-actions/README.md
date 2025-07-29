@@ -92,7 +92,7 @@ Once GitHub Actions completes successfully:
 
 ---
 
-## 📸 Screenshot  
+## 📸 Screenshot   [S3 Static Website Endpoint](http://dev-ci-cd-project.s3-website.ap-south-1.amazonaws.com)
 ![static-site-using-github-actions](./screenshots/static-site-using-github-actions.png)
 
 ---
