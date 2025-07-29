@@ -1,0 +1,27 @@
+name: Deploy Static Website to S3
+
+on:
+  push:
+    paths:
+      - 'projects/project-bonus-ci-cd-with-github-actions/static-site/**'
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ap-south-1
+
+    - name: Sync static site to S3
+      run: |
+        aws s3 sync projects/project-bonus-ci-cd-with-github-actions/static-site/ s3://dev-ci-cd-project/ --delete
