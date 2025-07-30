@@ -29,7 +29,7 @@
 - Verified port 80 is listening: `sudo ss -tuln | grep :80`
 - Confirmed NGINX welcome page accessible only **after** allowing port 80 in security group.
 - Added HTTP inbound rule: `0.0.0.0/0` → Port 80
-- Accessed the welcome page using EC2 public IP. [NGINX Webpage](./screenshots/nginx-page)
+- Accessed the welcome page using EC2 public IP. [NGINX Webpage](./screenshots/nginx-page.png)
 
 ### ✅ Step 4: Compared NGINX and Apache
 - Understood both are web servers.
