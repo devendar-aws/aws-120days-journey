@@ -38,3 +38,29 @@
 > 🧘‍♂️ Done with truth, clarity, and calm.
 
 ---
+
+## ✅ Day 25 Checklist — Linux Admin Basics
+
+| #   | Task                                                                 | Status  |
+|-----|----------------------------------------------------------------------|---------|
+| 1   | Launched EC2 Instance (Ubuntu)                                       | ✅ Done  |
+| 2   | Connected via SSH                                                    | ✅ Done  |
+| 3   | Created new Linux user                                               | ✅ Done  |
+| 4   | Created a new group                                                  | ✅ Done  |
+| 5   | Added user to the group                                              | ✅ Done  |
+| 6   | Verified user and group list (`cat /etc/passwd`, `cat /etc/group`)  | ✅ Done  |
+| 7   | Created a file with specific permissions using `chmod`              | ✅ Done  |
+| 8   | Changed file ownership with `chown` and `chgrp`                      | ✅ Done  |
+| 9   | Verified permission changes using `ls -l`                            | ✅ Done  |
+| 10  | Installed and started `nginx` using `systemctl`                      | ✅ Done  |
+| 11  | Checked service status with `systemctl status nginx`                | ✅ Done  |
+| 12  | Verified port 80 listening (`sudo ss -tuln | grep :80`)             | ✅ Done  |
+| 13  | Opened port 80 in Security Group (SG)                                | ✅ Done  |
+| 14  | Accessed NGINX welcome page via public IP                            | ✅ Done  |
+| 15  | Understood difference between HTTP and HTTPS                         | ✅ Done  |
+| 16  | Discussed static hosting: EC2 vs S3                                  | ✅ Done  |
+| 17  | Learned how to check boot services using `systemctl is-enabled`     | ✅ Done  |
+| 18  | Clarified instance billing: stopped vs terminated                    | ✅ Done  |
+
+---
+
