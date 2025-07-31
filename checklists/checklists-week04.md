@@ -64,3 +64,25 @@
 
 ---
 
+## ✅ Day 26 – Checklist (July 30, 2025)
+
+## 🧠 Goal: IAM Role-Based & Group-Based Access Control – Hands-On via AWS CLI and Console
+
+| Task No. | Task                                                                 | Status |
+|----------|----------------------------------------------------------------------|--------|
+| 1        | Create IAM users `devuser` and `audituser` via CLI                  | ✅     |
+| 2        | Set login access and password with reset requirement                | ✅     |
+| 3        | Create IAM groups: `devgroup` and `auditgroup`                      | ✅     |
+| 4        | Attach AWS managed policy `AmazonEC2FullAccess` to `devgroup`       | ✅     |
+| 5        | Create custom policy `IAMReadOnlyCustomPolicy` (IAM-only access)    | ✅     |
+| 6        | Attach custom policy to `auditgroup`                                | ✅     |
+| 7        | Add users to their respective groups (`devuser`, `audituser`)       | ✅     |
+| 8        | Log in to AWS Console as `devuser` and `audituser` and verify roles| ✅     |
+| 9        | Confirm that group permissions work as expected                     | ✅     |
+| 10       | Detach policies and remove users from groups                        | ✅     |
+| 11       | Delete users, groups, and custom policy                             | ✅     |
+| 12       | Document all steps and commands in `README.md`                      | ✅     |
+
+---
+
+
