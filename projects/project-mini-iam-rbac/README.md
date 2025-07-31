@@ -75,7 +75,7 @@ audituser→ auditgroup → IAMReadOnlyCustomPolicy (custom)
 ---
 
 ## 💻 CLI Commands Used
-> See full CLI log [here](./../../../120-days-journey/Week04-automation\&infra-skills/day26-iam-project/README.md)
+> See full CLI log [here](./../../120-days-journey/Week04-automation\&infra-skills/day26-iam-project/README.md)
 
 ✅ Created users, groups  
 ✅ Attached managed and custom policies  
