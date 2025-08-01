@@ -85,4 +85,21 @@
 
 ---
 
+## ✅ Day 27 Checklist — August 1, 2025
 
+## 📌 Theme: Review + Assessment 04 (Cron, Linux Permissions, CI/CD)
+
+| No. | Task Description                                  | Status     |
+|-----|--------------------------------------------------|------------|
+| 1   | Cron Quiz (9 questions)                          | ✅ Done     |
+| 2   | Linux File Permissions Quiz (10 questions)       | ✅ Done     |
+| 3   | Bonus Mixed Quiz (5 challenging questions)       | ✅ Done     |
+| 4   | CI/CD Quiz (10 questions)                        | ✅ Done     |
+| 5   | Review answers + explanations                    | ✅ Done     |
+| 6   | Honest scoring and tracking                      | ✅ Done     |
+| 7   | Generate `assessment04.md` with answers & score  | ✅ Done     |
+| 8   | Generate `checklist.md` with task table          | ✅ Done     |
+| 9   | Push changes to GitHub repo                      | ✅ Done     |
+| 10  | Maintain 100% focus & honesty                    | ✅ Done     |
+
+---
