@@ -41,4 +41,4 @@ No project or CLI work was done today. The focus was purely on theory, quizzes, 
 ## 📁 Files
 
 - [`assessment04.md`](./assessment04.md) – Full quiz questions, answers, explanations, and score
-- [`checklist.md`](./../checklists/checklists-week04.md) – Task status for the day
+- [`checklist.md`](./../../../checklists/checklists-week04.md) – Task status for the day
